@@ -27,9 +27,12 @@ const Home = () => {
                 </div>
             </article>
 
-
             <article>
                 <Carousel />
+            </article>
+
+            <article>
+
             </article>
 
 
