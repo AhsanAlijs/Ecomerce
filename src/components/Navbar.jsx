@@ -12,14 +12,6 @@ const Navbar = () => {
     const [mouseHover, setMousehover] = useState(false)
 
 
-
-
-
-
-
-
-
-
     return (
         <main onMouseLeave={() => setMousehover(false)}>
 
