@@ -1,4 +1,4 @@
-import { RiArrowLeftLine, RiArrowRightLine, RiHeadphoneFill, RiPlugFill, RiRefreshFill, RiSpeakerFill } from '@remixicon/react';
+import { RiArrowLeftLine, RiArrowRightLine, RiCameraLensLine, RiComputerLine, RiHeadphoneFill, RiPlugFill, RiRefreshFill, RiSpeakerFill } from '@remixicon/react';
 import React, { useState, useEffect } from 'react';
 
 const Carousel = () => {
@@ -12,12 +12,12 @@ const Carousel = () => {
         {
             title: "Desktop & laptop",
             description: "Welcome to our digital haven, where innovation meets convenience! Dive into the world of seamless computing with our extensive selection of desktops and laptops. Whether you're a creative professional seeking powerhouse performance or a casual user in pursuit of everyday efficiency, we've got you covered. Explore our curated collection featuring cutting-edge designs, lightning-fast processors, and immersive displays that redefine productivity. Elevate your digital experience with our range of sleek laptops and versatile desktops, meticulously crafted to meet your every need. Upgrade your tech game today and unlock a world of limitless possibilities!",
-            icon: <RiRefreshFill color='#00bfa5' />,
+            icon: <RiComputerLine color='#00bfa5' />,
         },
         {
             title: "DSLR camera",
-            description: "Ask us anything! The skilled support team will promptly handle your question. We provide premium support for all of our products.",
-            icon: <RiHeadphoneFill color='#00bfa5' />,
+            description: "Capture life's moments in stunning detail with our selection of DSLR cameras. Explore our range of high-performance cameras designed to elevate your photography game to new heights. From breathtaking landscapes to intimate portraits, our DSLRs offer unparalleled clarity and precision, ensuring every shot is a masterpiece. Whether you're a seasoned professional or an aspiring enthusiast, discover the perfect DSLR to unleash your creativity and capture memories that last a lifetime. Shop now and embark on a journey of visual storytelling like never before.",
+            icon: <RiCameraLensLine color='#00bfa5' />,
         },
     ];
 
