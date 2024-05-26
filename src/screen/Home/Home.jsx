@@ -2,8 +2,8 @@ import React from 'react'
 
 const Home = () => {
     return (
-        <main>
-
+        <main className='max-w-screen-2xl max-auto ' >
+            dsdsd
         </main>
     )
 }
