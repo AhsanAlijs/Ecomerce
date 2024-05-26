@@ -1,21 +1,21 @@
-import { RiArrowLeftLine, RiArrowRightLine, RiHeadphoneFill, RiPlugFill, RiRefreshFill } from '@remixicon/react';
+import { RiArrowLeftLine, RiArrowRightLine, RiHeadphoneFill, RiPlugFill, RiRefreshFill, RiSpeakerFill } from '@remixicon/react';
 import React, { useState, useEffect } from 'react';
 
 const Carousel = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
     const items = [
         {
-            title: "Premium Divi Plugin",
-            description: "We use the Divi Developer API by ElegantThemes carefully to ensure the quality of the Divi Supreme plugin.",
-            icon: <RiPlugFill color='#00bfa5' />,
+            title: "Speaker",
+            description: "Imagine an ecommerce entrepreneur poised at the forefront of a bustling digital marketplace, their presence magnetic as they prepare to unveil insights that will deeply resonate with online shoppers.With unwavering confidence, they captivate the virtual room, seamlessly weaving together a mosaic of strategies and tactics that ignite the imagination of aspiring digital merchants.Each word they utter carries the weight of experience, resonating with the power and conviction of proven success, leaving an indelible mark on the strategies and approaches of those fortunate enough to be in their audience.Their voice, akin to a skilled conductor, orchestrates emotions, guiding online sellers through a transformative journey of enlightenment and inspiration.They transcend mere conveyers of information, emerging as beacons of ecommerce wisdom, illuminating the path forward with every carefully curated tip and insight.",
+            icon: < RiSpeakerFill color='#00bfa5' />,
         },
         {
-            title: "Regular Updates",
-            description: "Divi Supreme Pro has auto-update notifications built-in so you will get notified of new updates in real-time without any hassle.",
+            title: "Desktop & laptop",
+            description: "Welcome to our digital haven, where innovation meets convenience! Dive into the world of seamless computing with our extensive selection of desktops and laptops. Whether you're a creative professional seeking powerhouse performance or a casual user in pursuit of everyday efficiency, we've got you covered. Explore our curated collection featuring cutting-edge designs, lightning-fast processors, and immersive displays that redefine productivity. Elevate your digital experience with our range of sleek laptops and versatile desktops, meticulously crafted to meet your every need. Upgrade your tech game today and unlock a world of limitless possibilities!",
             icon: <RiRefreshFill color='#00bfa5' />,
         },
         {
-            title: "Premium Support",
+            title: "DSLR camera",
             description: "Ask us anything! The skilled support team will promptly handle your question. We provide premium support for all of our products.",
             icon: <RiHeadphoneFill color='#00bfa5' />,
         },
